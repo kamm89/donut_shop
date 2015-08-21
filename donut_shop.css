@@ -6,12 +6,18 @@ header {
 
 html {
 	background-color: #ccff99;
-	min-width: 1050px;
+	min-width: 1080px;
 }
 
 #results {
-	margin-top: 250px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	display: inline-block;
 	font-weight: bold;
+	border: 1px solid black;
+	padding: 10px;
+	background-color: white;
 }
 
 #title {
@@ -44,20 +50,24 @@ aside h3 {
 	width: 100px;
 	border: 1px solid black;
 	margin: 10px 5px 0px 5px;
-	color: white;
-	background-color: black;
+	color: #0066FF;
+	background-color: #E6E6E6;
+	background-color: hsla(0, 100%, 100%, .7);
 }
 
 #aside_left p {
-	border: 1px solid black;
+	border: 1px solid orange;
 	margin: 10px 5px 220px 5px;
-	color: white;
-	background-color: black;
+	color: #0066FF;
+	font-family: Comic Sans;
+	padding: 5px;
+	background-color: #E6E6E6;
+	background-color: hsla(0, 100%, 100%, .8);
 }
 
 #aside_right {
 	border: 1px solid black;
-	height: 100%;
+	height: 550px;
 	width: 110px;
 	float: right;
 	background-image: url(http://generis.com/wp-content/uploads/2014/01/Donuts.jpg);
@@ -79,14 +89,18 @@ table {
 	width: 800px;
 	margin: 20px auto 0 auto;
 	position: absolute;
+	margin-left: 20px;
 }
 
 th, td {
 	border: 1px solid black;
 	text-align: center;
-	width: 60px;
+	width: 30px;
 	height: 30px;
 	background-color: #ffd6ad;
+	padding: none;
+	margin: none;
+
 }
 
 
@@ -95,14 +109,31 @@ th, td {
 	width: 100%;
 }
 
-button {
-	position: relative;
-	display: block;
+input {
+	display: inline-block;
+	font-size: 18px;
+	margin-top: 240px;
+	margin-left: 20px;
+}
+
+input:hover {
+	background-color: yellow;
 }
 
 footer {
 	margin-top: 20px;
+	color: white;
+	position: relative;
+	float: bottom;
 }
+
+h4 {
+	margin-top: 5px;
+	margin-bottom: 8px;
+	text-decoration: underline;
+	font-size: 18pt;
+}
+
 
 
 

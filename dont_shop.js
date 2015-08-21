@@ -1,19 +1,17 @@
-
 $(document).ready(function(){
-	$('#Calculate').on("click", function(){
+	$('#Calculate').on('click', function(){
 		$('#downtown').append(downtown.hour());
 		$('#capitol_hill').append(capitolHill.hour());
 		$('#south_lake_union').append(southLakeUnion.hour());
 		$('#wedgewood').append(wedgewood.hour());
 		$('#ballard').append(ballard.hour());
-		$('#results').append("<p>Downtown Total: "+downtown.day()+"<p>")
-		$('#results').append("<p>Capitol Hill Total: "+capitolHill.day()+"<p>")
-		$('#results').append("<p>South Lake Union Total: "+southLakeUnion.day()+"<p>")
-		$('#results').append("<p>Wedgewood Total: "+wedgewood.day()+"<p>")
-		$('#results').append("<p>Ballard Total: "+ballard.day()+"<p>")
+		$('#results').append("<p>Downtown: <em>"+downtown.day()+"</em><p>")
+		$('#results').append("<p>Capitol Hill: <em>"+capitolHill.day()+"</em><p>")
+		$('#results').append("<p>South Lake Union: <em>"+southLakeUnion.day()+"</em><p>")
+		$('#results').append("<p>Wedgewood: <em>"+wedgewood.day()+"</em><p>")
+		$('#results').append("<p>Ballard: <em>"+ballard.day()+"</em><p>")
 	});
 })
-
 
 var Shop = function (location, minCust, maxCust, avgPerCust, hoursOfOp) {
 	this.location = location;
