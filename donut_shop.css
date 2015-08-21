@@ -1,0 +1,108 @@
+header {
+	background-image: url(http://static.tumblr.com/f2444bae6687c57b88dcd476ac611f5f/iokgscd/EcNn30zzv/tumblr_static_wf-donuts-1.jpg);
+	height: 240px;
+	border: 7px dotted #ff5522;
+}
+
+html {
+	background-color: #ccff99;
+	min-width: 1050px;
+}
+
+#results {
+	margin-top: 250px;
+	font-weight: bold;
+}
+
+#title {
+	color: Purple;
+	font-family: copperplate;
+	font-size: 75px;
+	text-align: center;
+	margin: none;
+	min-width: 800px;
+}
+
+#subtitle {
+	font-size: 25px;
+	text-align: center;
+	color: purple;
+	min-width: 800px;
+}
+
+#aside_left {
+	height: 100%;
+	width: 110px;
+	border: 1px solid black;
+	display: inline-block;
+	background-image: url(http://generis.com/wp-content/uploads/2014/01/Donuts.jpg);
+	float: left;
+}
+
+aside h3 {
+	font-size: 30px;
+	width: 100px;
+	border: 1px solid black;
+	margin: 10px 5px 0px 5px;
+	color: white;
+	background-color: black;
+}
+
+#aside_left p {
+	border: 1px solid black;
+	margin: 10px 5px 220px 5px;
+	color: white;
+	background-color: black;
+}
+
+#aside_right {
+	border: 1px solid black;
+	height: 100%;
+	width: 110px;
+	float: right;
+	background-image: url(http://generis.com/wp-content/uploads/2014/01/Donuts.jpg);
+}
+
+#aside_right p {
+	margin-top: 10px; 
+	margin-right: 5px; 
+	margin-left: 5px; 
+	margin-bottom: 500px;
+	height: 100%;
+}
+
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	display: inline-block;
+	width: 800px;
+	margin: 20px auto 0 auto;
+	position: absolute;
+}
+
+th, td {
+	border: 1px solid black;
+	text-align: center;
+	width: 60px;
+	height: 30px;
+	background-color: #ffd6ad;
+}
+
+
+#hours {
+	display: inline-block;
+	width: 100%;
+}
+
+button {
+	position: relative;
+	display: block;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+
+
